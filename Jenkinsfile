@@ -5,7 +5,7 @@ pipeline{
 	}
 	stages{
 		stage('Checkout'){
-			steps{ git branch:master, url:'https://github.com/fluffy-panda07/MyMavenGuavaApp.git'
+			steps{ git branch:'master', url:'https://github.com/fluffy-panda07/MyMavenGuavaApp.git'
 			}
 			}
 		stage('Build'){
